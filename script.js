@@ -6,6 +6,7 @@ function adicionarTarefa(){
 
     if (textoTarefa === "") {
         alert("Por favor, digite uma tarefa!");
+        return;
     }
 
     tarefas.push(textoTarefa);
