@@ -108,4 +108,9 @@ color: #f9f9f9;
     color:#f9f9f9;
 }
 
+@media (max-width: 480px) {
+    .lista {
+        width: 100%;
+    }
+}
 
